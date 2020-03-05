@@ -1,0 +1,11 @@
+.main-nav {
+    border: 1px solid pink;
+}
+
+.main-nav > ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    list-style: none;
+    list-style-position: none;
+}

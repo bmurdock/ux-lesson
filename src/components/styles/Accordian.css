@@ -1,0 +1,25 @@
+.accordian {
+    max-width: 50vw;
+}
+.accordian > h3 {
+    border-radius: 0.5em;
+    background: #ccc;
+    border: 1px solid #bbb;
+    padding: 0.25em;
+    margin: 0;
+}
+.accordian-active > h3 {
+    background: #99f;
+}
+.accordian-content {
+    padding: 0.25em;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+}
+.accordian-hidden {
+    display: none;
+}
+
+.accordian-visible {
+    display: block;
+}
